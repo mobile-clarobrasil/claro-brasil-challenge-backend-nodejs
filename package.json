@@ -1,0 +1,47 @@
+{
+  "name": "claro-brasil-challenge-backend-nodejs",
+  "version": "1.0.0",
+  "description": "Desafio que consiste na criação de uma api para cadastro de manutenção de aparelhos por usuário",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test npx sequelize db:migrate; jest --forceExit",
+    "lint": "npx eslint __test__/ models/",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adalbertorsilva/claro-brasil-challenge-backend-nodejs.git"
+  },
+  "keywords": [
+    "Claro"
+  ],
+  "author": "Adalberto Júnior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adalbertorsilva/claro-brasil-challenge-backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/adalbertorsilva/claro-brasil-challenge-backend-nodejs#readme",
+  "dependencies": {
+    "auto-bind": "^1.2.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "husky": "^0.14.3",
+    "jest": "^23.4.2",
+    "supertest": "^3.1.0"
+  }
+}

@@ -60,9 +60,9 @@ Veja abaixo alguns exemplos de uso:
 
 Os requisitos abaixo não precisam ser implementados, mas são considerados um "plus" na sua avaliação.
 
- - Ao concluir o challenge, crie uma nova branch e refatore partes do seu código, removendo libs externas e substituindo por módulos do próprio Node ou features ES6/ES7
  - Use arquitetura em Serverless
  - Use Amazon Web Services
+ - Ao concluir o challenge, crie uma nova branch e refatore partes do seu código, removendo libs externas e substituindo por módulos do próprio Node ou features ES6/ES7
  - Crie seu próprio *test runner* e sua própria *assertion library* (bem básicos) e escreva um teste simples "from scratch", sem usar nenhuma lib
 
 

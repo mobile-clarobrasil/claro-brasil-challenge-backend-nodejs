@@ -39,21 +39,32 @@ Veja abaixo alguns exemplos de uso:
 5. O usuário **789** agora possui apenas um device cadastrado, já efetuou uma troca nos últimos 30 dias, e deseja remover este device. A API não remove o device cadastrado e retorna erro, informando que o último device não pode ser removido, pois o usuário não será capaz de cadastrar outro, e assim não poderá usar o aplicativo. Neste caso, a API também deverá retornar a data em que o usuário poderá fazer uma nova troca.
 
 
-#### Funcionalidades
+#### Requisitos obrigatórios (Funcionalidades)
 
-1. Adicionar um dispositivo, contendo:
-	 - ID do usuário
-   - ID do dispositivo
-   - Nome do dispositivo
-   - Modelo do dispositivo (Android, iOS)
-2. Alterar o nome de um dispositivo pelo ID
-3. Remover um dispositivo pelo ID
+1. Adicionar um dispositivo, informando:
+	- ID do usuário
+	- ID do dispositivo
+	- Nome do dispositivo
+	- Modelo do dispositivo (Android, iOS)
+2. Alterar o nome de um dispositivo através do ID
+3. Remover um dispositivo através do ID
 
 
 #### Requisitos desejáveis
 
  - Testes unitários
  - Integração contínua (Travis)
+
+
+#### Requisitos "plus"
+
+Os requisitos abaixo não precisam ser implementados, mas são considerados um "plus" na sua avaliação.
+
+ - Ao concluir o challenge, crie uma nova branch e refatore partes do seu código, removendo libs externas e substituindo por módulos do próprio Node ou features ES6/ES7
+ - Use arquitetura em Serverless
+ - Use Amazon Web Services
+ - Crie seu próprio *test runner* e sua própria *assertion library* (bem básicos) e escreva um teste simples "from scratch", sem usar nenhuma lib
+
 
 ----------
 
@@ -64,8 +75,8 @@ Critérios de avaliação
  - Organização do projeto
  - Qualidade da API Restful
  - Lógica da solução implementada
- - Camada de persistência
- - Utilização do Git (quantidade e descrição dos commits, utilização ou não de branches)
+ - Qualidade da camada de persistência
+ - Utilização do Git (quantidade e descrição dos commits, Git Flow)
 
 ----------
 

@@ -1,8 +1,7 @@
 Claro Brasil Challenge - Node JS
+===================
 
 [![N|Solid](https://jobs.i-hunter.com/claro/views/logo.php)](https://www.claro.com.br/)
-
-===================
 
 O objetivo deste desafio é avaliar a competência técnica dos candidatos a desenvolvedor NodeJS na **Claro Brasil**. Será solicitado o desenvolvimento de uma API restful para fazer o Controle de Devices cadastrados no sistema. As regras deste Controle de Devices estão detalhada neste documento.
 

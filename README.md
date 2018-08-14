@@ -62,8 +62,7 @@ Os requisitos abaixo não precisam ser implementados, mas são considerados um "
 
  - Use arquitetura em Serverless
  - Use Amazon Web Services
- - Ao concluir o challenge, crie uma nova branch e refatore partes do seu código, removendo libs externas e substituindo por módulos do próprio Node ou features ES6/ES7
- - Crie seu próprio *test runner* e sua própria *assertion library* (bem básicos) e escreva um teste simples "from scratch", sem usar nenhuma lib
+ - Ao concluir o challenge, crie uma nova branch e refatore partes do seu código. Avalie se as libs externas que você utilizou são realmente necessárias neste contexto. Sugestão: Remova algumas libs e utilize a própria linguagem JavaScript, módulos do próprio Node, ou features ES6 / ES7.
 
 
 ----------

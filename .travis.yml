@@ -1,0 +1,13 @@
+language:
+  - node_js
+node_js:
+  - 10.15.3
+branches:
+  only:
+    - master
+deploy:
+  provider: lambda
+  function_name: "userDevices"
+  role: "arn:aws:iam::184791077261:role/ClaroLambda"
+  handler_name: "handler"
+  edge: true

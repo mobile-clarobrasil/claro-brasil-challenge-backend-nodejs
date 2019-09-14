@@ -5,7 +5,7 @@ exports.handler = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: `Your function executed successfully!  ${id} ${deveiceId} `,
+        message: ` Your function executed successfully!  ${id} ${deveiceId} `,
         input: event,
       },
       null,

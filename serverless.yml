@@ -34,7 +34,7 @@ package:
 
 functions:
   devices:
-    handler: devices
+    handler: handler
 
 # you can add CloudFormation resource templates here
 #resources:

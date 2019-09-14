@@ -1,0 +1,15 @@
+language:
+  - node_js
+node_js:
+  - 10.15.3
+branches:
+only:
+  - master
+before_install:
+  - node --version
+  - npm --version
+install:
+  - npm install -g serverless
+after_script:
+  - serverless deploy -v
+view raw

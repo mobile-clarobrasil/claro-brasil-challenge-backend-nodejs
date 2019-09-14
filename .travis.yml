@@ -8,7 +8,10 @@ branches:
 before_install:
   - node --version
   - npm --version
-install:
-  - npm install -g serverless
-script:
-  - serverless deploy -v
+deploy:
+  provider: lambda
+  function_name: "userDevices"
+  region: "us-east-1"
+  role: "arn:aws:iam::184791077261:role/ClaroLambda"
+  runtime: "nodejs10.15.3"
+  handler_name: "handler"

@@ -5,6 +5,8 @@ node_js:
 branches:
   only:
     - feature/challange-imbroisi
+before_script:
+  - echo 'AQUI!!!!!!!!!'
 deploy:
   provider: lambda
   function_name: "userDevices"

@@ -1,0 +1,20 @@
+{
+  "name": "claro-brasil-challenge-backend-nodejs",
+  "version": "1.0.0",
+  "description": "Claro Brasil Challenge - Node JS ===================",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"no test specified...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbroisi/claro-brasil-challenge-backend-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imbroisi/claro-brasil-challenge-backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/imbroisi/claro-brasil-challenge-backend-nodejs#readme"
+}

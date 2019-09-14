@@ -3,8 +3,8 @@ language:
 node_js:
   - 10.15.3
 branches:
-only:
-  - master
+  only:
+    - feature/challange-imbroisi
 before_install:
   - node --version
   - npm --version
@@ -12,4 +12,3 @@ install:
   - npm install -g serverless
 after_script:
   - serverless deploy -v
-view raw

@@ -4,9 +4,7 @@ node_js:
   - 10.15.3
 branches:
   only:
-    - feature/challange-imbroisi
-before_script:
-  - echo 'AQUI!!!!!!!!!'
+    - master
 deploy:
   provider: lambda
   function_name: "userDevices"
